@@ -22,27 +22,23 @@ const Header = () => {
   return (
     <header className="site-header">
       <div className="container header-bar">
-        <div className="header-left">
+        <a className="brand" href="#home" onClick={(event) => handleNavClick(event, 'home')}>
+          <img src={getStaticAssetPath('static/logo/logo.png')} alt="Adspire logo" />
+        </a>
+        <div className="header-right">
+          <nav aria-label="Primary navigation">
+            <ul className="nav-links">
+              {navItems.map(({ id, labelKey }) => (
+                <li key={id}>
+                  <a href={`#${id}`} onClick={(event) => handleNavClick(event, id)}>
+                    {t(labelKey)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
           <LanguageSwitcher />
-          <a className="brand" href="#home" onClick={(event) => handleNavClick(event, 'home')}>
-            <img src={getStaticAssetPath('static/logo/logo.png')} alt="Adspire logo" />
-            <div className="brand-text">
-              <span className="brand-name">{t('brand.name')}</span>
-              <span className="brand-tagline">{t('brand.tagline')}</span>
-            </div>
-          </a>
         </div>
-        <nav aria-label="Primary navigation">
-          <ul className="nav-links">
-            {navItems.map(({ id, labelKey }) => (
-              <li key={id}>
-                <a href={`#${id}`} onClick={(event) => handleNavClick(event, id)}>
-                  {t(labelKey)}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
       </div>
     </header>
   )
