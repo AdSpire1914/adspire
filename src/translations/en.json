@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "Adspire",
+    "tagline": "Digital design & brand systems"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "language": {
+    "label": "Language",
+    "bg": "BG",
+    "en": "EN"
+  },
+  "hero": {
+    "title": "Digital design done right",
+    "subtitle": "We craft experiences that unite emotion, strategy, and unmistakable visuals.",
+    "cta": "Explore our services",
+    "scrollHint": "Scroll to services"
+  },
+  "services": {
+    "title": "What we deliver",
+    "items": {
+      "web": {
+        "title": "Web design",
+        "body": "Responsive sites with instant feedback, fast load times, and purposeful animations."
+      },
+      "uiux": {
+        "title": "UI/UX design",
+        "body": "Interfaces rooted in real user stories that lift engagement and retention metrics."
+      },
+      "brand": {
+        "title": "Brand identity",
+        "body": "Visual systems and guardrails that keep every touchpoint on-brand and memorable."
+      },
+      "marketing": {
+        "title": "Digital marketing",
+        "body": "Campaign assets with sharp messaging for social, paid, and lifecycle channels."
+      },
+      "mobile": {
+        "title": "Mobile apps",
+        "body": "Flutter and native UI kits focused on gestures, accessibility, and micro interactions."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "body": "Product detail pages and checkout flows optimized for trust and higher conversion."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let’s work together",
+    "subtitle": "Share your next milestone — we respond quickly and deliver on time.",
+    "cards": {
+      "phone": {
+        "heading": "Need a call?",
+        "copy": "Dial us to unpack your idea with a lead designer on the spot.",
+        "action": "Call now",
+        "value": "+359 899 99 99 99",
+        "href": "tel:+359899999999"
+      },
+      "email": {
+        "heading": "Prefer email?",
+        "copy": "Send a short brief and we’ll follow up with timing and a shaped proposal.",
+        "action": "Send email",
+        "value": "bgadspire@gmail.com",
+        "href": "mailto:bgadspire@gmail.com"
+      }
+    }
+  },
+  "footer": {
+    "copy": "All rights reserved."
+  }
+}
